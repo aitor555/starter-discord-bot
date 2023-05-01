@@ -1,31 +1,21 @@
 {
-  "name": "starter-discord-bot",
-  "version": "1.0.0",
-  "description": "",
+  "name": "adq-bot",
+  "version": "0.1.0",
+  "description": "A discord bot that asks daily questions",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js",
-    "start":"node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/korostelevm/starter-discord-bot.git"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/korostelevm/starter-discord-bot/issues"
-  },
-  "homepage": "https://github.com/korostelevm/starter-discord-bot#readme",
   "dependencies": {
-    "axios": "^0.27.2",
-    "body-parser": "^1.20.0",
-    "discord-interactions": "^3.2.0",
-    "dotenv": "^16.0.2",
-    "express": "^4.18.1"
+    "discord.js": "^14.10.0",
+    "dotenv": "^16.0.3"
   },
   "devDependencies": {
-    "nodemon": "^2.0.19"
+    "eslint": "^8.39.0"
+  },
+  "engines": {
+    "node": "16.6"
   }
 }
